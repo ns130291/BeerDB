@@ -31,7 +31,7 @@
         }
         
         $brwry = Brewery::getBrewery(1);
-        echo "++++".$brwry->getName();
+        echo $brwry->getName();
         ?>
     </body>
 </html>
