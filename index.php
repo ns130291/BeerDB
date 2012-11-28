@@ -29,6 +29,9 @@
             $brewery;
             echo $brewery->getName() . "<br>\n";
         }
+        
+        $brwry = Brewery::getBrewery(1);
+        echo "++++".$brwry->getName();
         ?>
     </body>
 </html>
